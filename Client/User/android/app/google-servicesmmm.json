@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "129758844450",
+    "project_id": "sdp1-b91a6",
+    "storage_bucket": "sdp1-b91a6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:129758844450:android:2d14fcebfbe6382bc01c7b",
+        "android_client_info": {
+          "package_name": "com.example.skybridge02"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSUdOoF5eY3-1ByRgv1UhQfYvWv1y9Sls"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

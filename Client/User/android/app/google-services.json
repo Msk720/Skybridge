@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "129758844450",
+    "project_id": "sdp1-b91a6",
+    "storage_bucket": "sdp1-b91a6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:129758844450:android:2d14fcebfbe6382bc01c7b",
+        "android_client_info": {
+          "package_name": "com.example.skybridge02"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "129758844450-78spuj1mpjvmb4sjamfhgdlb5m2j4gb0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.skybridge02",
+            "certificate_hash": "7804db4959d0dedaab9284eb935d21258efe3fae"
+          }
+        },
+        {
+          "client_id": "129758844450-sh52pn9407vt1i7i9i5uj80japfn4tvm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.skybridge02",
+            "certificate_hash": "484373263303e255f5e4e890765affe4c26d1006"
+          }
+        },
+        {
+          "client_id": "129758844450-07ie4idohapl7lvgs8mamotabes5e1et.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSUdOoF5eY3-1ByRgv1UhQfYvWv1y9Sls"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "129758844450-07ie4idohapl7lvgs8mamotabes5e1et.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "129758844450-bth3409ff1lptfku102b0orfcr501r16.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.skybridge02"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
