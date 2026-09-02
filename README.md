@@ -1,11 +1,10 @@
 <p align="center">
-  <img src="Assets/Screenshots/logo.png" alt="SkyBridge Logo" width="120">
+  <img src="Assets/Screenshots/logo.png" alt="SkyBridge Logo" width="160">
 </p>
-
 <h1 align="center"> SkyBridge</h1>
 
 <p align="center">
-A Full-Stack Logistics & Shipment Management Platform
+A Cross Platform Power by Travelors
 </p>
 
 <p align="center">
