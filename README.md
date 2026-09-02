@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="Assets/Screenshots/logo.png" alt="SkyBridge Logo" width="160">
-</p>
+
 <h1 align="center"> SkyBridge</h1>
 
 <p align="center">
