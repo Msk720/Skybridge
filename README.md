@@ -1,7 +1,11 @@
-# 🚚 SkyBridge
+<p align="center">
+  <img src="Assets/logo.png" alt="SkyBridge Logo" width="180">
+</p>
+
+<h1 align="center"> SkyBridge</h1>
 
 <p align="center">
-  <img src="assets/banner/banner.png" alt="SkyBridge Banner" width="100%">
+A Full-Stack Logistics & Shipment Management Platform
 </p>
 
 <p align="center">
@@ -10,46 +14,60 @@
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 ![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white)
+![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white)
 
 </p>
 
 ---
 
-# 📖 Overview
+#  Overview
 
-SkyBridge is a full-stack logistics and shipment management platform developed as a Final Year Project (FYP). The platform connects customers, transporters, and administrators through a modern digital system that simplifies shipment booking, management, payment processing, and dispute resolution.
+SkyBridge is a full-stack logistics and shipment management platform developed as a **Final Year Project (FYP)**. The platform connects **buyers, travelers, and administrators** through a secure digital ecosystem that simplifies shipment booking, order management, payment processing, and dispute resolution.
 
-The project consists of a Flutter mobile application for users, a React-based admin dashboard, and a Node.js backend with MongoDB for data management.
+The project consists of:
+
+-  Flutter Mobile Application
+-  React Admin Dashboard
+-  Node.js & Express Backend
+-  MongoDB Database
+-  Firebase Authentication & Notifications
+-  Stripe Payment Integration
+-  Cloudinary Image Storage
 
 ---
 
-# ✨ Key Features
+#  Key Features
 
-### 👤 User Application
+##  User Mobile Application
 
 - User Registration & Login
-- Secure Authentication
+- Secure Firebase Authentication
+- Buyer & Traveler Modules
 - Shipment Booking
+- Product Requests
+- Trip Creation
+- Offer Management
+- Order Management
 - Shipment Tracking
-- Transporter Offers
-- Offer Acceptance
-- Shipment History
 - Stripe Payment Integration
 - Cloudinary Image Upload
-- Firebase Notifications
+- Real-time Chat
+- Push Notifications
+- Ratings & Reviews
 - User Profile Management
 
 ---
 
-### 🛠 Admin Dashboard
+##  Admin Dashboard
 
 - Dashboard Overview
 - User Management
 - Account Management
-- Shipment Management
+- Product Management
+- Order Management
 - Dispute Management
 - Payment Monitoring
 - Analytics & Reports
@@ -57,59 +75,67 @@ The project consists of a Flutter mobile application for users, a React-based ad
 
 ---
 
-### ⚙ Backend
+##  Backend
 
 - RESTful API
-- Firebase Integration
+- Firebase Authentication
 - MongoDB Database
 - Cloudinary Integration
 - Stripe Payment Processing
 - Secure Middleware
 - Role-Based Authorization
+- Modular API Architecture
 
 ---
 
-# 🏗 System Architecture
+#  System Architecture
 
 ```text
 Flutter Mobile App
         │
         ▼
- REST API (Node.js + Express)
+REST API (Node.js + Express)
         │
         ▼
-     MongoDB Database
+MongoDB Database
         │
  ┌──────────────┬─────────────┐
  ▼              ▼             ▼
-Firebase     Stripe     Cloudinary
+Firebase      Stripe      Cloudinary
 ```
 
 ---
 
-# 💻 Tech Stack
+#  Tech Stack
 
-| Category | Technology |
-|----------|------------|
+| Category | Technologies |
+|-----------|--------------|
 | Mobile App | Flutter, Dart |
-| Admin Panel | React.js |
+| Admin Dashboard | React.js |
 | Backend | Node.js, Express.js |
 | Database | MongoDB |
 | Authentication | Firebase Authentication |
-| Storage | Cloudinary |
+| Image Storage | Cloudinary |
 | Payments | Stripe |
 | Version Control | Git & GitHub |
 
 ---
 
-# 📂 Project Structure
+#  Project Structure
 
 ```text
 SkyBridge
 │
+├── Assets
+│   ├── logo.png
+│   └── Screenshots
+│
 ├── Client
-│   ├── User (Flutter)
-│   └── Admin (React)
+│   ├── User
+│   │   └── Flutter Application
+│   │
+│   └── Admin
+│       └── React Dashboard
 │
 ├── Server
 │   ├── config
@@ -126,7 +152,7 @@ SkyBridge
 
 ---
 
-# 🚀 Getting Started
+#  Getting Started
 
 ## Clone Repository
 
@@ -136,7 +162,7 @@ git clone https://github.com/Msk720/SkyBridge.git
 
 ---
 
-## Install User App
+## Install User Application
 
 ```bash
 cd Client/User
@@ -146,7 +172,7 @@ flutter run
 
 ---
 
-## Install Admin Panel
+## Install Admin Dashboard
 
 ```bash
 cd Client/Admin
@@ -156,85 +182,97 @@ npm start
 
 ---
 
-## Install Backend
+## Install Backend Server
 
 ```bash
 cd Server
 npm install
-npm run start
+npm start
 ```
 
 ---
 
-# 🔐 Environment Variables
+#  Environment Variables
 
-Create a `.env` file inside the `Server` directory.
-
-Example:
+Create a `.env` file inside the **Server** directory.
 
 ```env
 PORT=
+
 MONGODB_URI=
+
+JWT_SECRET=
+
+FIREBASE_PROJECT_ID=
+
 STRIPE_SECRET_KEY=
+
+CLOUDINARY_CLOUD_NAME=
+
+CLOUDINARY_API_KEY=
+
+CLOUDINARY_API_SECRET=
 ```
 
 ---
-# 📷 Screenshots
 
-## 📱 Mobile Application
+#  Screenshots
+
+##  User Mobile Application
 
 | Login | Home |
 |-------|------|
-| ![Login Screen](assets/screenshots/login.png) | ![Home Screen](assets/screenshots/home.png) |
+| ![](Assets/Screenshots/login.png) | ![](Assets/Screenshots/home.png) |
 
-| Add Item Request | Navigation Menu |
-|------------------|-----------------|
-| ![Add Item Request](assets/screenshots/create_item_req.png) | ![Navigation Menu](assets/screenshots/Menu_bar.png) |
+| Product Request | Navigation Menu |
+|-----------------|-----------------|
+| ![](Assets/Screenshots/create_item_req.png) | ![](Assets/Screenshots/menu_bar.png) |
 
 | Order Dashboard | Create Trip |
 |-----------------|-------------|
-| ![Order Dashboard](assets/screenshots/order_dash.png) | ![Create Trip](assets/screenshots/create_trip.png) |
+| ![](Assets/Screenshots/order_dash.png) | ![](Assets/Screenshots/create_trip.png) |
 
 | Notifications | Chat |
-|---------------|------|
-| ![Notifications](assets/screenshots/notifications.png) | ![Chat](assets/screenshots/chat.png) |
+|--------------|------|
+| ![](Assets/Screenshots/notifications.png) | ![](Assets/Screenshots/chat.png) |
 
 ---
 
-## 🖥️ Admin Dashboard
+##  Admin Dashboard
 
 | Dispute Management | Product Management |
 |--------------------|--------------------|
-| ![Dispute Management](assets/screenshots/admin_dispute.png) | ![Product Management](assets/screenshots/admin_product_management.png) |
+| ![](Assets/Screenshots/admin_dispute.png) | ![](Assets/Screenshots/admin_product_management.png) |
 
 ---
 
-# 🔮 Future Improvements
+#  Future Improvements
 
-- Real-time shipment tracking
-- In-app messaging
-- Push notifications
-- AI-powered shipment recommendations
-- Advanced analytics dashboard
-- Multi-language support
-- Dark mode
-- Driver mobile application
+- Live Shipment Tracking
+- AI-based Shipment Recommendations
+- Advanced Analytics Dashboard
+- Multi-language Support
+- Dark Mode
+- Driver Mobile Application
+- Email Notifications
+- Performance Optimization
 
 ---
 
-# 👨‍💻 Author
+#  Author
 
 **Salman Khan**
 
-Computer Science Graduate
-
+Computer Science Graduate  
 Flutter Developer | Aspiring Software Engineer
 
-- GitHub: https://github.com/Msk720
-- LinkedIn: https://www.linkedin.com/in/salman-khan-5a8974292
+- **GitHub:** https://github.com/Msk720
+- **LinkedIn:** https://www.linkedin.com/in/salman-khan-5a8974292
 
 ---
 
-# 📄 License
+#  Support
 
-This project is developed for educational and portfolio purposes.
+If you found this project useful, consider giving it a ⭐ on GitHub.
+
+---
