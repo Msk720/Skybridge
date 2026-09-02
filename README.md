@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Assets/Screenshots/logo.png" alt="SkyBridge Logo" width="180">
+  <img src="Assets/Screenshots/logo.png" alt="SkyBridge Logo" width="120">
 </p>
 
 <h1 align="center"> SkyBridge</h1>
