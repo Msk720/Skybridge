@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Assets/logo.png" alt="SkyBridge Logo" width="180">
+  <img src="Assets/Screenshots/logo.png" alt="SkyBridge Logo" width="180">
 </p>
 
 <h1 align="center"> SkyBridge</h1>
@@ -226,7 +226,7 @@ CLOUDINARY_API_SECRET=
 
 | Product Request | Navigation Menu |
 |-----------------|-----------------|
-| ![](Assets/Screenshots/create_item_req.png) | ![](Assets/Screenshots/menu_bar.png) |
+| ![](Assets/Screenshots/create_item_req.png) | ![](Assets/Screenshots/Menu_bar.png) |
 
 | Order Dashboard | Create Trip |
 |-----------------|-------------|
